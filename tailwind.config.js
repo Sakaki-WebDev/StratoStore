@@ -32,6 +32,7 @@ module.exports = {
         "light-2": "#fff",
         "light-3": "#fff",
         "light-4": "#ccc",
+        "maroon-500": "#990000",
       },
       screens: {
         xs: "480px",

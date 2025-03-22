@@ -31,8 +31,8 @@ const LeftSidebar = () => {
           <img
             src="/assets/images/logo4.png"
             alt="logo"
-            width={170}
-            height={36}
+            width={240}
+            height={96}
           />
         </Link>
 
@@ -62,7 +62,7 @@ const LeftSidebar = () => {
               <li
                 key={link.label}
                 className={`leftsidebar-link group ${
-                  isActive && "bg-primary-500"
+                  isActive && "bg-maroon-500"
                 }`}>
                 <NavLink
                   to={link.route}
